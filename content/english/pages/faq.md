@@ -25,11 +25,11 @@ We are open 7 days a week 9.00 am till 7.00 pm Tuesday, Thursday, and Friday -
 other days till 6:00 pm. Weekends 9.00 am till 12.00 pm all by appointment.
 
 ## How to Book
-##Please complete the online booking form as soon as possible. This way we can hold your car selection, as we wait for the deposit to come through. A deposit of $100 per car is required to secure your booking.
+##Please complete the online attached booking form as soon as possible. This way we can hold your car selection, as we wait for the deposit to come through. A deposit of $100 per car is required to secure your booking.
 Deposits are non- refundable; however, they are transferable. Cancellation must be done 30 days before the wedding or forfeiture of full payment must be made.
 
 We don’t have a credit facility. However, it is best to use our Always Classic Cars Account BSB- 633 000 Account- 3026317 as per booking form. You must use your name and the date of the wedding as a reference. The balance must be paid 7 days before the wedding at the latest by bank transfer or a cash envelope on the day to your chauffeur upon arrival.
-If you require additional hiring time on the day this is charged at $50 per quarter per car thereafter.
+If you require additional hiring time on the day this is charged at $75 per 15 minutes per car thereafter.
 
 ## What we provide
 Fully uniformed chauffeurs and wedding ribbon on your car and lace on the back parcel shelf. Red carpet, champagne glasses, water and Moscato or non-alcoholic apple cider and umbrellas. Chauffeurs will always open and close all doors for all the passengers.
