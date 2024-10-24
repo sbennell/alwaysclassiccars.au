@@ -8,32 +8,33 @@ tags: ["4 Passengers", "Black", "Rolls Royce"]
 draft: false
 ---
 ## History
-Engine  No : GYD12 
 
-Chassis No : NYG Built 1932 Rolls Royce England. 
+Tommy, as we call it at ACC, is a 1932 Rolls Royce with Engine No: GYD12 engine N9G. It came off the test in July 1934 and was a Cooper Saloon delivered in London.
 
-Delivered in 1934 Mrs Hilda M. Kidd ( Nee McI ) Sister of Cecil McI  Sunshine  
+In September 1934, it was delivered to Mrs. Hilda M. Kidd (nee McKay, sister of Cecil McKay, owner of GYD 15) in Sunshine Victoria (Sunshine Harvester Co). By 1936, it was registered in Victoria as Vic 58-820. It was later re-bodied as a Martin & King saloon. Mrs. Kidd, who was married to Col. George Stevenson of South Yarra, Melbourne, re-registered it as Vic-278-237 in October 1938.
 
-In Victoria 1936 Reg’d Vic 58820 
+In 1938, it was owned by Wing Commander B.L. De Melnotte.
 
-Rebodied as a Martin & King Saloon for Mrs Kidd married to Col George Stevenson Of South Yarra Melbourne Australia Reg’d Vic 278237 
+In 1950, Vic J.S. Muir of Ringwood became the owner.
 
-In 1938 Wing Commander B.L.D.E. Melnotte. 
+In 1954, it was sold to Vic McLaughlin Motors for £750.
 
-In 1950 Vic J.S. Muir of Ringwood  
+In 1962, it was acquired by Charles McI Janes.
 
-In 1954 Vic McLaughlin Motors for Sale $ 750 pounds  
+In 1975, it was located in Victoria and Gunnedah, NSW.
 
-In 1962 Charles McI Jane  
+Later, the vehicle was purchased by the Circus family Ashton and was used to drive clowns around. It also had a large speaker in the front to announce that the circus was in town.
 
-In 1975 Vic & Gunnedah NSW 
+The vehicle was purchased by Always Classic Cars in December 1998 and came from Queensland. It was white and had a big dent in the front passenger guard, caused by one of the elephants.
 
-Unknown ? 
+**Details:**
+- Make: Rolls Royce
+- Year: 1932
+- Nickname: Tommy
+- Engine: 20/25 hp, 6-cylinder engine
+- Transmission: 4-speed manual gearbox
+- Type: Limousine
+- Engine Capacity: 3¾ litres
 
-Sold to Ashton Circus. 
-
-In 1998 December Always Classic Cars. 
-
-Restored and Re-registered Tom-32. 
 ## Photos
 {{< gallery dir="/images/cars/1932-rolls-royce/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
