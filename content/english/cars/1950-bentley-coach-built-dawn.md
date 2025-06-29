@@ -1,5 +1,5 @@
 ---
-title: "1950 Bentley Couch Built Dawn"
+title: "1950 Bentley Coach Built Dawn"
 meta_title: "1950 Bentley Couch Built Dawn"
 description: "1950 Bentley Couch Built Dawn"
 date: 2022-04-04T05:00:00Z
