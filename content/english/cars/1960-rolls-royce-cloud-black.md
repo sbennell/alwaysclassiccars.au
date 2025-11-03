@@ -4,7 +4,7 @@ draft: false
 title: "1960 Rolls Royce Cloud - Black"
 description: "Refined Silver Cloud elegance"
 icon: "fas fa-crown"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

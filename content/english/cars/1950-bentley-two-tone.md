@@ -4,7 +4,7 @@ draft: false
 title: "1950 Bentley - Two-Tone"
 description: "Sporting elegance with Bentley performance"
 icon: "fas fa-trophy"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

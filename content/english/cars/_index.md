@@ -16,7 +16,7 @@ Our collection spans from 1932 to 2021, featuring prestigious Rolls Royce and Be
 
 ### Choose by Passenger Capacity
 
-- **5 Passengers** - Perfect for intimate bridal couples and small groups
+- **4 Passengers** - Perfect for intimate bridal couples and small groups
 - **6 Passengers** - Ideal for small bridal parties or family groups
 - **7 Passengers** - Great for larger parties, groomsmen, and school formals
 

@@ -4,7 +4,7 @@ draft: false
 title: "2006 Mercedes S Class - Black"
 description: "Contemporary luxury and sophistication"
 icon: "fas fa-star"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

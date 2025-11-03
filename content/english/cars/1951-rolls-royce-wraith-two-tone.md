@@ -4,7 +4,7 @@ draft: false
 title: "1951 Rolls Royce Wraith - Two-Tone"
 description: "Classic elegance in two-tone livery"
 icon: "fas fa-palette"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

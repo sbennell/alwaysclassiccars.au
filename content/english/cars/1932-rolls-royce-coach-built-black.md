@@ -4,7 +4,7 @@ draft: false
 title: "1932 Rolls Royce 20/25 'Tommy' - Black"
 description: "Pre-war elegance with a remarkable history"
 icon: "fas fa-crown"
-passengers: 5
+passengers: 4
 nickname: "Tommy"
 engine: "GYD12 engine N9G"
 year: 1932

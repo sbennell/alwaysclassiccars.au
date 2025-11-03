@@ -4,7 +4,7 @@ draft: false
 title: "1962 Bentley Cloud - Black"
 description: "Bentley elegance in classic black"
 icon: "fas fa-trophy"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

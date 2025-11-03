@@ -4,7 +4,7 @@ draft: false
 title: "1968 Rolls Royce Convertible - White"
 description: "Open-air luxury in classic white"
 icon: "fas fa-sun"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

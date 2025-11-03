@@ -4,7 +4,7 @@ draft: false
 title: "1947 Rolls Royce Wraith - Black"
 description: "Post-war elegance and sophistication"
 icon: "fas fa-crown"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

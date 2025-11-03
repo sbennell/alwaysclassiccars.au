@@ -4,7 +4,7 @@ draft: false
 title: "1960 Bentley Cloud LWB - White"
 description: "Bentley sporting luxury in white"
 icon: "fas fa-trophy"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

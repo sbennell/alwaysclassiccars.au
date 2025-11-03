@@ -4,7 +4,7 @@ draft: false
 title: "1935 Rolls Royce Sedanca De Ville - Black"
 description: "Elegant open chauffeur compartment"
 icon: "fas fa-gem"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

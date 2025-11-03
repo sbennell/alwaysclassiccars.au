@@ -4,7 +4,7 @@ draft: false
 title: "1960 Rolls Royce Cloud LWB - White"
 description: "Extra space in classic white"
 icon: "fas fa-star"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:

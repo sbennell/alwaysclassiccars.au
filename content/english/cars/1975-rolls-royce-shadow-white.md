@@ -4,7 +4,7 @@ draft: false
 title: "1975 Rolls Royce Shadow - White"
 description: "Modern luxury in classic white"
 icon: "fas fa-gem"
-passengers: 5
+passengers: 4
 
 ######################### banner #####################
 banner:
