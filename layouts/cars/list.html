@@ -17,7 +17,7 @@
 <section class="section pt-0">
   <div class="container">
     <div class="row gx-sm-5 gy-5 justify-content-center">
-    {{range where site.RegularPages "Section" "cars"}}
+    {{range .Pages}}
     <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="fade-in">
       <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
         <div class="card products-card is-hoverable h-100">
