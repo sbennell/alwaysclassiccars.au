@@ -2,9 +2,8 @@
 title: "Our Classic Car Fleet"
 subtitle: "Vintage Elegance for Your Special Occasion"
 # meta description
-description: "Explore our stunning collection of vintage and classic cars including Rolls Royce, Bentley, and classic convertibles from the 1930s-1970s. Perfect for weddings, debutantes, and special occasions."
+description: "Explore our stunning collection of 20 vintage and classic cars from 1932-2021. Rolls Royce, Bentley, Mercedes, and classic convertibles for weddings, debutantes, and special occasions in Melbourne."
 draft: false
 # content section
 section: "cars"
 ---
-
