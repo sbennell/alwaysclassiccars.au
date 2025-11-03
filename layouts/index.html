@@ -1,0 +1,208 @@
+{{ define "main" }}
+
+<!-- banner -->
+{{ with .Params.banner }}
+<section class="banner position-relative" style="background-image: url('{{ .image | absURL }}'); background-size: cover; background-position: center; min-height: 600px;">
+  <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.4);"></div>
+  <div class="container position-relative" style="z-index: 1;">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center py-5 my-5">
+        <h1 class="mb-4 pb-2 text-white">{{ .title | markdownify }}</h1>
+        <p class="mb-4 text-white">{{ .content | markdownify }}</p>
+        <div class="mb-5">
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-primary m-2">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /banner -->
+
+<!-- clients_logo_slider -->
+{{ if .Params.clients_logo_slider.enable }}
+{{ with .Params.clients_logo_slider }}
+<section class="section overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="h6">{{.title | markdownify}}</h2>
+      </div>
+      <div class="col-12">
+        <div class="swiper brand-carousel">
+          <div class="swiper-wrapper">
+            {{ range .logos }}
+            <div class="swiper-slide brand-item d-flex align-items-center justify-content-center">
+              {{ partial "image" (dict "Src" . "Alt" "Brands logo" "Size" "x35") }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- clients_logo_slider -->
+
+<!-- feature -->
+{{ with .Params.feature }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 mb-5 mb-xl-0">
+        <div class="pe-0 pe-xl-3">
+          <h2 class="section-title h3 mb-4">{{ .title | markdownify }}</h2>
+          <div class="content mb-4">
+            {{.content | markdownify}}
+          </div>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-xl-8">
+        <div class="row gx-md-5 gy-5">
+          {{ range .feature_item }}
+            <div class="col-md-6">
+              <div class="feature-card is-hoverable bg-white rounded-1 d-block d-sm-flex">
+                <i class="icon {{.icon}} text-primary mb-4"></i>
+                <div class="block">
+                  <h4 class="mb-3 h5">{{ .name | title }}</h4>
+                  <p class="mb-0">{{ .content | markdownify }}</p>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- service -->
+{{ with .Params.service }}
+{{ if .enable }}
+{{ range $i, $e:= .service_item }}
+<section class="section {{ if modBool $i 2 }}bg-light{{ end }}">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-md-6 {{if modBool $i 2}}order-md-2{{end}}">
+        {{ range .images }}
+        {{ partial "image" (dict "Src" . "Alt" "service" "Size" "500x") }}
+        {{ end }}
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0 {{if modBool $i 2}}order-md-1 {{end}}">
+        <h2 class="h3 mb-4">{{ .title | markdownify }}</h2>
+        <div class="content">{{ .content | markdownify }}</div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary mt-4">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+<!-- /service -->
+
+<!-- content_and_image -->
+{{ with .Params.content_and_image }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        {{ range .images }}
+        {{ partial "image" (dict "Src" . "Alt" "image" "Size" "500x") }}
+        {{ end }}
+      </div>
+      <div class="col-lg-6 offset-lg-1">
+        <h2 class="mb-4 h3">{{ .title | markdownify }}</h2>
+        <div class="content mb-4">
+          {{ .content | markdownify }}
+        </div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /content_and_image -->
+
+<!-- screenshot -->
+{{ with .Params.screenshot }}
+{{ if .enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h2 class="mb-5 h3">{{ .title | markdownify }}</h2>
+        {{ partial "image" (dict "Src" .image "Alt" "screenshot image" "Size" "1000x") }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /screenshot -->
+
+<!-- testimonial -->
+{{ with .Params.testimonial }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="mb-3 h3">{{ .title | markdownify }}</h2>
+        <div class="content">
+          {{ .content | markdownify }}
+        </div>
+      </div>
+      <div class="col-lg-10 mx-auto">
+        <div class="row gy-5">
+          {{ range .list }}
+          <div class="col-md-6">
+            <div class="card testimonial-card rounded-1 border-0 h-100">
+              <div class="card-body">
+                <i class="fas fa-quote-left fa-2x text-primary opacity-25 mb-4"></i>
+                <p>{{ .content | markdownify }}</p>
+                <div class="d-flex align-items-center">
+                  <div class="ms-0">
+                    <h5 class="mb-0 h6">{{ .name }}</h5>
+                    <small class="text-muted">{{ .designation }}</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonial -->
+
+{{ end }}
