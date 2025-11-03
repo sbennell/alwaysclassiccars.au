@@ -16,9 +16,92 @@
 
 <section class="section pt-0">
   <div class="container">
-    <div class="row gx-sm-5 gy-5 justify-content-center">
+    <!-- Filter Controls -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card bg-light border-0">
+          <div class="card-body p-4">
+            <h5 class="mb-4"><i class="fas fa-filter me-2"></i>Filter Our Fleet</h5>
+            <div class="row gy-3">
+              <!-- Passenger Filter -->
+              <div class="col-lg-4 col-md-6">
+                <label class="form-label fw-500">Passengers</label>
+                <select id="passengerFilter" class="form-select">
+                  <option value="">All Passenger Counts</option>
+                  <option value="5">5 Passengers</option>
+                  <option value="6">6 Passengers</option>
+                  <option value="7">7 Passengers</option>
+                </select>
+              </div>
+              <!-- Color Filter -->
+              <div class="col-lg-4 col-md-6">
+                <label class="form-label fw-500">Color</label>
+                <select id="colorFilter" class="form-select">
+                  <option value="">All Colors</option>
+                  <option value="black">Black</option>
+                  <option value="white">White</option>
+                  <option value="silver">Silver</option>
+                  <option value="cream">Cream</option>
+                  <option value="ivory">Ivory</option>
+                  <option value="fawn">Fawn</option>
+                </select>
+              </div>
+              <!-- Make Filter -->
+              <div class="col-lg-4 col-md-6">
+                <label class="form-label fw-500">Make</label>
+                <select id="makeFilter" class="form-select">
+                  <option value="">All Makes</option>
+                  <option value="rolls-royce">Rolls Royce</option>
+                  <option value="bentley">Bentley</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="austin">Austin</option>
+                </select>
+              </div>
+            </div>
+            <div class="mt-3">
+              <button id="resetFilters" class="btn btn-sm btn-outline-primary">
+                <i class="fas fa-redo me-1"></i> Reset Filters
+              </button>
+              <span id="resultCount" class="ms-3 text-muted"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Car Cards -->
+    <div id="carsGrid" class="row gx-sm-5 gy-5 justify-content-center">
     {{range .Pages}}
-    <div class="col-xl-3 col-lg-4 col-sm-6" data-aos="fade-in">
+    {{- $title := lower .Title -}}
+    {{- $color := "" -}}
+    {{- $make := "" -}}
+    {{- if findRE "(?i)rolls.?royce" $title -}}
+      {{- $make = "rolls-royce" -}}
+    {{- else if findRE "(?i)bentley" $title -}}
+      {{- $make = "bentley" -}}
+    {{- else if findRE "(?i)mercedes" $title -}}
+      {{- $make = "mercedes" -}}
+    {{- else if findRE "(?i)austin" $title -}}
+      {{- $make = "austin" -}}
+    {{- end -}}
+    {{- if findRE "(?i)black" $title -}}
+      {{- $color = "black" -}}
+    {{- else if findRE "(?i)white" $title -}}
+      {{- $color = "white" -}}
+    {{- else if findRE "(?i)silver" $title -}}
+      {{- $color = "silver" -}}
+    {{- else if findRE "(?i)cream" $title -}}
+      {{- $color = "cream" -}}
+    {{- else if findRE "(?i)ivory" $title -}}
+      {{- $color = "ivory" -}}
+    {{- else if findRE "(?i)fawn" $title -}}
+      {{- $color = "fawn" -}}
+    {{- end -}}
+    <div class="col-xl-3 col-lg-4 col-sm-6 car-item"
+         data-aos="fade-in"
+         data-passengers="{{.Params.passengers}}"
+         data-color="{{$color}}"
+         data-make="{{$make}}">
       <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
         <div class="card products-card is-hoverable h-100">
           <div class="card-body p-5 pb-0">
@@ -41,7 +124,82 @@
     </div>
     {{end}}
     </div>
+
+    <!-- No Results Message -->
+    <div id="noResults" class="row d-none">
+      <div class="col-12 text-center py-5">
+        <i class="fas fa-search fa-3x text-muted mb-3"></i>
+        <h4>No vehicles match your filters</h4>
+        <p class="text-muted">Try adjusting your filter selections</p>
+      </div>
+    </div>
   </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const passengerFilter = document.getElementById('passengerFilter');
+  const colorFilter = document.getElementById('colorFilter');
+  const makeFilter = document.getElementById('makeFilter');
+  const resetBtn = document.getElementById('resetFilters');
+  const resultCount = document.getElementById('resultCount');
+  const carItems = document.querySelectorAll('.car-item');
+  const noResults = document.getElementById('noResults');
+
+  function filterCars() {
+    const passengerValue = passengerFilter.value;
+    const colorValue = colorFilter.value;
+    const makeValue = makeFilter.value;
+
+    let visibleCount = 0;
+
+    carItems.forEach(function(item) {
+      const itemPassengers = item.dataset.passengers;
+      const itemColor = item.dataset.color;
+      const itemMake = item.dataset.make;
+
+      const passMatch = !passengerValue || itemPassengers === passengerValue;
+      const colorMatch = !colorValue || itemColor === colorValue;
+      const makeMatch = !makeValue || itemMake === makeValue;
+
+      if (passMatch && colorMatch && makeMatch) {
+        item.style.display = '';
+        visibleCount++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    // Update result count
+    if (passengerValue || colorValue || makeValue) {
+      resultCount.textContent = 'Showing ' + visibleCount + ' of ' + carItems.length + ' vehicles';
+    } else {
+      resultCount.textContent = 'Showing all ' + carItems.length + ' vehicles';
+    }
+
+    // Show/hide no results message
+    if (visibleCount === 0) {
+      noResults.classList.remove('d-none');
+    } else {
+      noResults.classList.add('d-none');
+    }
+  }
+
+  function resetFilters() {
+    passengerFilter.value = '';
+    colorFilter.value = '';
+    makeFilter.value = '';
+    filterCars();
+  }
+
+  passengerFilter.addEventListener('change', filterCars);
+  colorFilter.addEventListener('change', filterCars);
+  makeFilter.addEventListener('change', filterCars);
+  resetBtn.addEventListener('click', resetFilters);
+
+  // Initialize count
+  filterCars();
+});
+</script>
 
 {{end}}
