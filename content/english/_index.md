@@ -2,7 +2,7 @@
 ####################### Banner #########################
 banner:
   title : "Melbourne's Biggest Vintage and Classic Cars Collection"
-  image : "images/banner-art.svg"
+  image : "images/cars-at-Essendon-Airport.jpg"
   content : "Experience elegance and sophistication with our premium chauffeur-driven classic car service. Over 37 years of excellence serving weddings, debutantes, and special occasions. <br> Respecting the uniform and spoiling the bride."
   button:
     enable : true
