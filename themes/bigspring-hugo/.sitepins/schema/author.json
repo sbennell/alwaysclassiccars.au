@@ -1,0 +1,29 @@
+{
+  "file": "exampleSite/content/english/author/awab-husameldin.md",
+  "name": "author",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "image",
+      "label": "Image",
+      "type": "media",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "social",
+      "label": "Social",
+      "type": "Array",
+      "value": [],
+      "defaultValue": ""
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Our Cars"
+url = "/cars/"
+weight = 2
+
+[[main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 3
+
+[[main]]
+name = "About Us"
+url = "/about/"
+weight = 4
+
+[[main]]
+name = "FAQ"
+url = "/faq/"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "/contact/"
+weight = 6
+
+# footer menu left
+[[footer_left]]
+name = "About Us"
+url = "/about/"
+weight = 1
+
+[[footer_left]]
+name = "Our Cars"
+url = "/cars/"
+weight = 2
+
+[[footer_left]]
+name = "Gallery"
+url = "/gallery/"
+weight = 3
+
+[[footer_left]]
+name = "FAQ"
+url = "/faq/"
+weight = 4
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Services"
+url = "/#services"
+weight = 1
+
+[[footer_middle]]
+name = "Weddings"
+url = "/#weddings"
+weight = 2
+
+[[footer_middle]]
+name = "Debutantes"
+url = "/#debutantes"
+weight = 3
+
+[[footer_middle]]
+name = "School Formals"
+url = "/#formals"
+weight = 4
+
+# footer menu right
+[[footer_right]]
+name = "Contact"
+url = "/contact/"
+weight = 1
+
+[[footer_right]]
+name = "Phone: (03) 9898 2889"
+url = "tel:0398982889"
+weight = 2
+
+[[footer_right]]
+name = "Email Us"
+url = "mailto:info@alwaysclassiccars.com.au"
+weight = 3
+
+[[footer_right]]
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 4

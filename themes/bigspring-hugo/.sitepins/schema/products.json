@@ -1,0 +1,79 @@
+{
+  "file": "exampleSite/content/english/products/product-1.md",
+  "name": "products",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "icon",
+      "label": "Icon",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "banner",
+      "label": "Customer Relationship Management",
+      "type": "object",
+      "defaultValue": ""
+    },
+    {
+      "name": "about_this_product",
+      "label": "CRM for every business, <br> for every industry",
+      "type": "object",
+      "defaultValue": ""
+    },
+    {
+      "name": "product_info",
+      "label": "New experiments <br> Launch in minutes",
+      "type": "object",
+      "defaultValue": ""
+    },
+    {
+      "name": "intro_video",
+      "label": "Check out our video preview",
+      "type": "object",
+      "defaultValue": ""
+    },
+    {
+      "name": "content_and_image_ordered",
+      "label": "Content And Image Ordered",
+      "type": "object",
+      "defaultValue": ""
+    },
+    {
+      "name": "cta",
+      "label": "Start accelerating your strategy’s effectiveness, today.",
+      "type": "object",
+      "defaultValue": ""
+    }
+  ]
+}
