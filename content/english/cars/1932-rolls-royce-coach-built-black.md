@@ -1,16 +1,19 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1932 Rolls Royce Coach Built - Black"
-description: "Pre-war elegance and craftsmanship"
+title: "1932 Rolls Royce 20/25 'Tommy' - Black"
+description: "Pre-war elegance with a remarkable history"
 icon: "fas fa-crown"
 passengers: 5
+nickname: "Tommy"
+engine: "GYD12 engine N9G"
+year: 1932
 
 ######################### banner #####################
 banner:
-  title: "1932 Rolls Royce Coach Built"
+  title: "1932 Rolls Royce 20/25 - 'Tommy'"
   image: "images/products/01.jpg"
-  content: "Experience the grandeur of pre-war motoring with our magnificent 1932 Rolls Royce Coach Built. This rare and stunning vehicle represents the pinnacle of 1930s automotive craftsmanship and elegance."
+  content: "Meet 'Tommy' - our magnificent 1932 Rolls Royce 20/25 with a fascinating 90-year history spanning from Melbourne society to circus fame. This rare Martin & King saloon represents authentic pre-war craftsmanship with an unforgettable story."
   button:
     enable: true
     label: "Book This Car"
@@ -21,35 +24,37 @@ banner:
 ######################### about this product #####################
 about_this_product:
   enable: true
-  title: "Authentic 1930s <br> Automotive Masterpiece"
-  content: "This exceptional coach-built Rolls Royce is a true museum piece, meticulously maintained and presented in stunning black. Perfect for couples seeking authentic vintage glamour for their wedding day."
+  title: "'Tommy' - A Rolls Royce <br> With a Story to Tell"
+  content: "From Melbourne high society to circus stardom, 'Tommy' has a remarkable 90-year history. This 1932 Rolls Royce 20/25 was originally delivered to Mrs. Hilda M. Kidd of the Sunshine Harvester family, later owned by Wing Commander B.L. De Melnotte, then famously used by the Ashton Circus family to drive clowns and announce the circus arrival - complete with the dent from an elephant! Acquired by Always Classic Cars in 1998, Tommy has been lovingly restored and now creates wedding memories."
   background_class: ""
 
   features:
-  - title: "Pre-War Heritage"
+  - title: "Historic Provenance"
     icon: "fas fa-landmark"
-    content: "**Rare 1932 coach-built craftsmanship**
+    content: "**90 years of documented history**
 
 
-    One of the finest examples of pre-war Rolls Royce engineering and coachwork.
+    A true piece of Australian automotive heritage.
 
-    * Hand-crafted coach-built body
-    * Authentic 1930s styling
-    * Classic black livery
-    * Seats 5 passengers
+    * Engine No: GYD12 N9G
+    * Martin & King coachwork
+    * Originally Cooper Saloon
+    * Re-bodied 1936
+    * Melbourne society to circus fame
     "
 
-  - title: "Premium Service"
-    icon: "fas fa-user-tie"
-    content: "**Professional chauffeur experience**
+  - title: "Specifications"
+    icon: "fas fa-cog"
+    content: "**Classic 20/25 HP engineering**
 
 
-    Our experienced drivers understand the significance of this historic vehicle.
+    Authentic pre-war Rolls Royce craftsmanship.
 
-    * Period-dressed chauffeur available
-    * Red carpet service
-    * Complimentary Moscato or cider
-    * Wedding ribbons and decorations
+    * 6-cylinder engine, 3¾ litres
+    * 4-speed manual gearbox
+    * Limousine body style
+    * Seats 5 passengers
+    * Restored to showroom condition
     "
 
 
@@ -64,26 +69,26 @@ product_info:
     content: "##### For Heritage Weddings
 
 
-    Ideal for vintage-themed weddings, art deco celebrations, and couples who want the most authentic classic car experience possible.
+    Ideal for vintage-themed weddings, art deco celebrations, and couples who appreciate authentic history. Tommy's journey from Melbourne high society to circus fame makes him an unforgettable conversation piece.
 
     <br><br>
 
     ##### For Photo Shoots
 
-    This stunning pre-war Rolls Royce provides spectacular photo opportunities with its distinctive 1930s styling.
+    This stunning pre-war Rolls Royce provides spectacular photo opportunities with its distinctive 1930s styling and remarkable story - including the famous elephant dent!
     "
 
   - image: "images/products/02.jpg"
     content: "##### For Film Productions
 
 
-    Popular for period films, photo shoots, and events requiring authentic 1930s vehicles.
+    Perfect for period films, photo shoots, and events requiring authentic 1930s vehicles with documented provenance and genuine circus history.
 
     <br><br>
 
     ##### For Special Occasions
 
-    Make any milestone celebration extraordinary with this rare and magnificent vintage motorcar.
+    Make any milestone celebration extraordinary with this rare and magnificent vintage motorcar that's been a star in Melbourne society, circus performances, and now countless weddings. Tommy's 90-year story adds magic to every event.
     "
 
 
