@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "2006 Mercedes S Class - Black"
+title: "2006 - Mercedes S Class - Black"
 description: "Contemporary luxury and sophistication"
 icon: "fas fa-star"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "2006 Mercedes S Class - Black"
-  image: "images/products/01.jpg"
+  title: "2006 - Mercedes S Class - Black"
+  image: "images/cars/2006-mercedes-s-class/2006-mercedes-s-class.jpg"
   content: "Experience modern luxury with our elegant black 2006 Mercedes S Class. Perfect for contemporary weddings, corporate events, and clients seeking refined modern transport."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Contemporary <br> Luxury"
   content: "The Mercedes S Class represents the pinnacle of modern luxury sedans, offering supreme comfort, advanced features, and sophisticated styling."
@@ -49,6 +49,13 @@ about_this_product:
     * Complimentary beverages
     "
 
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/2006-mercedes-s-class/gallery"
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +67,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

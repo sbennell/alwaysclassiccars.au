@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1949 Rolls Royce Wraith - Two-Tone"
+title: "1949 - Rolls Royce Wraith - Two-Tone"
 description: "Distinguished two-tone elegance"
 icon: "fas fa-palette"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1949 Rolls Royce Wraith - Two-Tone"
-  image: "images/products/01.jpg"
+  title: "1949 - Rolls Royce Wraith - Two-Tone"
+  image: "images/cars/1949-rolls-royce-silver-wraith/1949-rolls-royce-silver-wraith.jpg"
   content: "Stand out with our elegant 1949 Rolls Royce Wraith in distinctive two-tone livery. This beautiful vehicle combines classic Rolls Royce luxury with eye-catching color scheme perfect for memorable weddings."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Distinctive Two-Tone <br> Styling"
   content: "The two-tone paintwork adds visual interest and photogenic appeal while maintaining all the luxury and refinement Rolls Royce is famous for."
@@ -48,6 +48,12 @@ about_this_product:
     * Complimentary beverages
     * Professional presentation
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1949-rolls-royce-silver-wraith/gallery"
 
 ######################### CTA #####################
 cta:

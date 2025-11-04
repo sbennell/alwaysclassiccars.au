@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1960 Rolls Royce Cloud LWB - White"
+title: "1960 - Rolls Royce Cloud LWB - White"
 description: "Extra space in classic white"
 icon: "fas fa-star"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1960 Rolls Royce Cloud Long Wheelbase - White"
-  image: "images/products/01.jpg"
+  title: "1960 - Rolls Royce Cloud LWB - White"
+  image: "images/cars/1960-rolls-royce-cloud-lwb/1960-rolls-royce-cloud-lwb.jpg"
   content: "Our stunning white 1960 Silver Cloud Long Wheelbase offers extra rear legroom and classic wedding car elegance in the most popular white finish."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Long Wheelbase <br> Extra Luxury"
   content: "The Long Wheelbase Silver Cloud provides additional rear passenger space - perfect for accommodating wedding gowns and ensuring bride comfort."
@@ -48,6 +48,13 @@ about_this_product:
     * Wedding decorations
     * Complimentary beverages
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1960-rolls-royce-cloud-lwb/gallery"
+
 
 ######################### CTA #####################
 cta:

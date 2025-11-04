@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1960 Rolls Royce Cloud - Black"
+title: "1960 - Rolls Royce Cloud - Black"
 description: "Refined Silver Cloud elegance"
 icon: "fas fa-crown"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1960 Rolls Royce Silver Cloud - Black"
-  image: "images/products/01.jpg"
+  title: "1960 - Rolls Royce Cloud - Black"
+  image: "images/cars/1960-rolls-royce-cloud/1960-rolls-royce-cloud.jpg"
   content: "Our 1960 Rolls Royce Silver Cloud in elegant black offers the ultimate in classic British luxury for your special day."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Silver Cloud <br> Excellence"
   content: "This beautifully maintained 1960 Silver Cloud represents Rolls Royce at its finest, perfect for discerning couples."
@@ -48,6 +48,13 @@ about_this_product:
     * Complimentary drinks
     * Photography support
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1960-rolls-royce-cloud/gallery"
+
 
 ######################### CTA #####################
 cta:

@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1935 Rolls Royce Sedanca De Ville - Black"
+title: "1935 – Rolls Royce Sedanca De Ville - Black"
 description: "Elegant open chauffeur compartment"
 icon: "fas fa-gem"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1935 Rolls Royce Sedanca De Ville"
-  image: "images/products/01.jpg"
+  title: "1935 – Rolls Royce Sedanca De Ville"
+  image: "images/cars/1935-rolls-royce-sedanca-deville/1935-rolls-royce-sedanca-deville.jpg"
   content: "Experience the unique elegance of our 1935 Sedanca De Ville with its distinctive open chauffeur compartment. This rare body style combines formality with pre-war luxury, perfect for discerning couples."
   button:
     enable: true
@@ -18,8 +18,8 @@ banner:
   background_class: "bg-light"
 
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Rare Sedanca De Ville <br> Body Style"
   content: "The Sedanca De Ville is a distinctive coachwork style where the rear passenger compartment is fully enclosed while the chauffeur's compartment can be opened to the elements - the ultimate in formal motoring."
@@ -53,14 +53,14 @@ about_this_product:
     "
 
 
-######################### product_info #####################
-product_info:
+######################### car_info #####################
+car_info:
   enable: true
   title: "Perfect For <br> Elegant Celebrations"
   content: "This rare Sedanca De Ville provides an unforgettable experience for couples seeking something truly unique for their special day."
   background_class: "bg-light"
   features:
-  - image: "images/products/01.jpg"
+  - image: "images/cars/1935-rolls-royce-sedanca-deville/1935-rolls-royce-sedanca-deville.jpg"
     content: "##### For Luxury Weddings
 
 
@@ -73,7 +73,7 @@ product_info:
     Perfect for vintage-themed celebrations and events celebrating the golden age of motoring.
     "
 
-  - image: "images/products/02.jpg"
+  - image: "images/cars/1935-rolls-royce-sedanca-deville/1935-rolls-royce-sedanca-deville.jpg"
     content: "##### For Photography
 
 
@@ -86,6 +86,12 @@ product_info:
     Ideal for automotive enthusiasts and period-themed celebrations.
     "
 
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1935-rolls-royce-sedanca-deville/gallery"
 
 ######################### CTA #####################
 cta:

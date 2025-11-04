@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1950 Bentley - Two-Tone"
+title: "1950 - Bentley - Two-Tone"
 description: "Sporting elegance with Bentley performance"
 icon: "fas fa-trophy"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1950 Bentley - Two-Tone"
-  image: "images/products/02.jpg"
+  title: "1950 - Bentley - Two-Tone"
+  image: "images/cars/1950-bentley-couch-built-dawn/1950-bentley-couch-built-dawn.jpg"
   content: "Experience the sporting character of our 1950 Bentley in elegant two-tone livery. This beautiful British classic combines Bentley's performance heritage with wedding day elegance."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Sporting Heritage <br> Wedding Elegance"
   content: "Bentley's sporting pedigree combined with classic elegance makes this two-tone beauty perfect for couples who appreciate British motoring excellence."
@@ -49,6 +49,13 @@ about_this_product:
     * Photography support
     "
 
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1950-bentley-couch-built-dawn/gallery"
+
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +67,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

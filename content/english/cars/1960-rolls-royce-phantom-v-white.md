@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1960 Rolls Royce Phantom V - White"
+title: "1960 - Rolls Royce Phantom V - White"
 description: "The ultimate in Rolls Royce luxury"
 icon: "fas fa-crown"
 passengers: 6
 
 ######################### banner #####################
 banner:
-  title: "1960 Rolls Royce Phantom V - White"
-  image: "images/products/01.jpg"
+  title: "1960 - Rolls Royce Phantom V - White"
+  image: "images/cars/1960-rolls-royce-phantom-v/1960-rolls-royce-phantom-v.jpg"
   content: "Experience the pinnacle of Rolls Royce luxury with our magnificent 1960 Phantom V in elegant white. This prestigious limousine seats 6 passengers in supreme comfort."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "The Phantom V <br> Ultimate Luxury"
   content: "The Phantom V represents the absolute pinnacle of Rolls Royce craftsmanship - a limousine built for royalty, heads of state, and the most discerning clients."
@@ -49,14 +49,14 @@ about_this_product:
     * Complimentary beverages
     "
 
-######################### product_info #####################
-product_info:
+######################### car_info #####################
+car_info:
   enable: true
   title: "Perfect For <br> Grand Occasions"
   content: "The Phantom V is ideal for large bridal parties, VIP transport, and couples seeking the ultimate in wedding car luxury."
   background_class: "bg-light"
   features:
-  - image: "images/products/01.jpg"
+  - image: "images/cars/1960-rolls-royce-phantom-v/1960-rolls-royce-phantom-v.jpg"
     content: "##### For Luxury Weddings
 
     The Phantom V offers unmatched space and prestige - perfect for elaborate wedding gowns and transporting the bride with attendants.
@@ -68,7 +68,7 @@ product_info:
     Used by royalty and heads of state - the ultimate statement vehicle for important occasions.
     "
 
-  - image: "images/products/02.jpg"
+  - image: "images/cars/1960-rolls-royce-phantom-v/1960-rolls-royce-phantom-v.jpg"
     content: "##### For Larger Parties
 
     With seating for 6, the Phantom V can accommodate the bride plus bridesmaids or family members in supreme luxury.
@@ -79,6 +79,13 @@ product_info:
 
     This prestigious limousine is a favorite for high-end photo shoots and period productions.
     "
+
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1960-rolls-royce-phantom-v/gallery"
 
 ######################### CTA #####################
 cta:

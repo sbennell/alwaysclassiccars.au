@@ -41,6 +41,7 @@
                   <option value="black">Black</option>
                   <option value="white">White</option>
                   <option value="silver">Silver</option>
+                  <option value="two-tone">Two-Tone</option>
                 </select>
               </div>
               <!-- Make Filter -->
@@ -81,7 +82,9 @@
     {{- else if findRE "(?i)austin" $title -}}
       {{- $make = "austin" -}}
     {{- end -}}
-    {{- if findRE "(?i)black" $title -}}
+    {{- if findRE "(?i)two.?tone" $title -}}
+      {{- $color = "two-tone" -}}
+    {{- else if findRE "(?i)black" $title -}}
       {{- $color = "black" -}}
     {{- else if findRE "(?i)white" $title -}}
       {{- $color = "white" -}}
@@ -101,19 +104,23 @@
          data-make="{{$make}}">
       <a href="{{.RelPermalink}}" class="d-block text-reset h-100">
         <div class="card products-card is-hoverable h-100">
-          <div class="card-body p-5 pb-0">
-            {{with .Params.icon}}<span class="h3 d-inline-block mb-4"><i class="text-primary {{.}}"></i></span>{{end}}
-            <h3 class="h5">{{.Title | markdownify}}</h3>
-            <div class="mt-3">
-              <div class="content mb-4">{{.Params.description}}</div>
-            </div>
+          {{with .Params.banner}}
+          {{with .image}}
+          <div class="card-img-top">
+            {{ partial "image" (dict "Src" . "Alt" $.Title "Size" "400x" "Class" "w-100") }}
+          </div>
+          {{end}}
+          {{end}}
+          <div class="card-body p-4">
+            <h3 class="h5 mb-3">{{.Title | markdownify}}</h3>
+            <div class="content mb-3">{{.Params.description}}</div>
             {{with .Params.passengers}}
-            <div class="mb-3">
+            <div class="mb-0">
               <small class="text-muted"><i class="fas fa-users me-1"></i> {{.}} passengers</small>
             </div>
             {{end}}
           </div>
-          <div class="card-footer p-5 pt-0 border-0 bg-transparent">
+          <div class="card-footer p-4 pt-0 border-0 bg-transparent">
             <span class="text-primary fw-500">View Details <i class="fas fa-arrow-right small ms-1"></i> </span>
           </div>
         </div>

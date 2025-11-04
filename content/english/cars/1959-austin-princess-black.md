@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1959 Austin Princess - Black"
+title: "1959 - Austin Princess - Black"
 description: "British limousine for larger parties"
 icon: "fas fa-users"
 passengers: 7
 
 ######################### banner #####################
 banner:
-  title: "1959 Austin Princess - Black"
-  image: "images/products/01.jpg"
+  title: "1959 - Austin Princess - Black"
+  image: "images/cars/1959-austin-princess-limousine/1959-austin-princess-limousine.jpg"
   content: "Our elegant 1959 Austin Princess in classic black seats 7 passengers, making it perfect for larger bridal parties, groomsmen groups, and family transport."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Classic British <br> Group Transport"
   content: "The Austin Princess was a prestigious British limousine, offering spacious comfort for up to 7 passengers in classic 1950s style."
@@ -49,6 +49,12 @@ about_this_product:
     * Wedding decorations included
     "
 
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1959-austin-princess-limousine/gallery"
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +66,5 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+
+

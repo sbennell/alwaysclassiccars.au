@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1960 Bentley Cloud LWB - White"
+title: "1960 - Bentley Cloud LWB - White"
 description: "Bentley sporting luxury in white"
 icon: "fas fa-trophy"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1960 Bentley Cloud Long Wheelbase - White"
-  image: "images/products/02.jpg"
+  title: "1960 - Bentley Cloud LWB - White"
+  image: "images/cars/1960-bentley-cloud-lwb/1960-bentley-cloud-lwb.jpg"
   content: "Experience Bentley's sporting heritage in our elegant white Long Wheelbase model. This rare variant combines Bentley performance character with extra rear passenger space."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Bentley Excellence <br> Extra Space"
   content: "The Bentley Cloud Long Wheelbase offers the perfect combination of sporting character and practical luxury, finished in elegant white."
@@ -48,6 +48,13 @@ about_this_product:
     * Complimentary beverages
     * Professional chauffeur
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1960-bentley-cloud-lwb/gallery"
+
 
 ######################### CTA #####################
 cta:

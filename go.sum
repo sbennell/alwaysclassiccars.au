@@ -18,6 +18,8 @@ github.com/gethugothemes/hugo-modules/components/render-link v0.0.0-202507020709
 github.com/gethugothemes/hugo-modules/components/render-link v0.0.0-20250702070945-cd8319c6b26e/go.mod h1:z3YcIeEBUonAoRDY1/Jv1ojNVkZ5ud35a0Nn8L4Inx0=
 github.com/gethugothemes/hugo-modules/components/render-link v0.0.0-20251015025058-e7199bf4215b h1:WOUnyvqFSq9vfpLuFKt32UgZ/QNNh7X0Ssj29PFprk0=
 github.com/gethugothemes/hugo-modules/components/render-link v0.0.0-20251015025058-e7199bf4215b/go.mod h1:z3YcIeEBUonAoRDY1/Jv1ojNVkZ5ud35a0Nn8L4Inx0=
+github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20251015025058-e7199bf4215b h1:WZNuTxF+xNCWk9P2yN4tRp6qlFC71+cJiABBBVTDdrA=
+github.com/gethugothemes/hugo-modules/gallery-slider v0.0.0-20251015025058-e7199bf4215b/go.mod h1:MvQ2js/ofZ22CTX5wuvE+dC0rMe6C5HAWL2fEOu/yzE=
 github.com/gethugothemes/hugo-modules/gzip-caching v0.0.0-20250702070945-cd8319c6b26e h1:LXPCTA8RsFXfcj8/jiIb2eY0WHFDQmJOeYUsJRsnJBk=
 github.com/gethugothemes/hugo-modules/gzip-caching v0.0.0-20250702070945-cd8319c6b26e/go.mod h1:0ZMjTZVG4XLZU2/icc8Saqo4mmgMpfRTrUZU2Aa2Pwg=
 github.com/gethugothemes/hugo-modules/gzip-caching v0.0.0-20251015025058-e7199bf4215b h1:WK2P8VvBViXFR4gaeUxD25HdDvtOQxlL8l8NOSdEBk8=

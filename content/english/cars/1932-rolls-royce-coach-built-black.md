@@ -1,7 +1,7 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1932 Rolls Royce 20/25 'Tommy' - Black"
+title: "1932 – Rolls Royce Coach Built - Black"
 description: "Pre-war elegance with a remarkable history"
 icon: "fas fa-crown"
 passengers: 4
@@ -11,8 +11,8 @@ year: 1932
 
 ######################### banner #####################
 banner:
-  title: "1932 Rolls Royce 20/25 - 'Tommy'"
-  image: "images/products/01.jpg"
+  title: "1932 – Rolls Royce Coach Built"
+  image: "images/cars/1932-rolls-royce/1932-Rolls-Royce.jpg"
   content: "Meet 'Tommy' - our magnificent 1932 Rolls Royce 20/25 with a fascinating 90-year history spanning from Melbourne society to circus fame. This rare Martin & King saloon represents authentic pre-war craftsmanship with an unforgettable story."
   button:
     enable: true
@@ -21,8 +21,8 @@ banner:
   background_class: "bg-light"
 
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "'Tommy' - A Rolls Royce <br> With a Story to Tell"
   content: "From Melbourne high society to circus stardom, 'Tommy' has a remarkable 90-year history. This 1932 Rolls Royce 20/25 was originally delivered to Mrs. Hilda M. Kidd of the Sunshine Harvester family, later owned by Wing Commander B.L. De Melnotte, then famously used by the Ashton Circus family to drive clowns and announce the circus arrival - complete with the dent from an elephant! Acquired by Always Classic Cars in 1998, Tommy has been lovingly restored and now creates wedding memories."
@@ -58,14 +58,14 @@ about_this_product:
     "
 
 
-######################### product_info #####################
-product_info:
+######################### car_info #####################
+car_info:
   enable: true
   title: "Perfect For <br> Vintage-Themed Weddings"
   content: "This authentic 1930s Rolls Royce creates stunning photographs and provides an unforgettable experience for couples who appreciate genuine automotive history."
   background_class: "bg-light"
   features:
-  - image: "images/products/01.jpg"
+  - image: "images/cars/1932-rolls-royce/1932-Rolls-Royce.jpg"
     content: "##### For Heritage Weddings
 
 
@@ -78,7 +78,7 @@ product_info:
     This stunning pre-war Rolls Royce provides spectacular photo opportunities with its distinctive 1930s styling and remarkable story - including the famous elephant dent!
     "
 
-  - image: "images/products/02.jpg"
+  - image: "images/cars/1932-rolls-royce/1932-Rolls-Royce.jpg"
     content: "##### For Film Productions
 
 
@@ -90,6 +90,13 @@ product_info:
 
     Make any milestone celebration extraordinary with this rare and magnificent vintage motorcar that's been a star in Melbourne society, circus performances, and now countless weddings. Tommy's 90-year story adds magic to every event.
     "
+
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1932-rolls-royce/gallery"
 
 
 ######################### CTA #####################

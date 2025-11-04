@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1962 Bentley Cloud - Black"
+title: "1962 - Bentley Cloud - Black"
 description: "Bentley elegance in classic black"
 icon: "fas fa-trophy"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1962 Bentley Cloud - Black"
-  image: "images/products/02.jpg"
+  title: "1962 - Bentley Cloud - Black"
+  image: "images/cars/1962-bentley-cloud/1962-bentley-cloud.jpg"
   content: "Our 1962 Bentley Cloud in classic black combines Bentley's sporting pedigree with timeless elegance, perfect for sophisticated weddings."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Bentley Sporting <br> Luxury"
   content: "This beautifully presented Bentley Cloud offers the perfect alternative to Rolls Royce, with Bentley's distinctive sporting character in formal black livery."
@@ -49,6 +49,13 @@ about_this_product:
     * Complimentary beverages
     "
 
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1962-bentley-cloud/gallery"
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +67,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

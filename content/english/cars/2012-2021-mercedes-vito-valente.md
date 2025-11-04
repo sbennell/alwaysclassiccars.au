@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "2012-2021 Mercedes Vito Valente"
+title: "2012-2021 - Mercedes Vito Valente"
 description: "Modern luxury people mover"
 icon: "fas fa-van-shuttle"
 passengers: 7
 
 ######################### banner #####################
 banner:
-  title: "Mercedes Vito Valente - Luxury People Mover"
-  image: "images/products/01.jpg"
+  title: "2012-2021 - Mercedes Vito Valente"
+  image: "images/cars/2012-mercedes-vito/2012-Mercedes-Vito.jpg"
   content: "Our Mercedes Vito Valente offers contemporary luxury transport for up to 7 passengers, perfect for modern weddings, school formals, and group events."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Modern Luxury <br> Group Transport"
   content: "The Mercedes Valente provides supreme comfort with modern amenities - ideal for contemporary weddings, formals, and events requiring reliable group transport."
@@ -49,14 +49,14 @@ about_this_product:
     * Airport transfers
     "
 
-######################### product_info #####################
-product_info:
+######################### car_info #####################
+car_info:
   enable: true
   title: "Ideal For <br> Modern Events"
   content: "The Mercedes Valente is perfect for couples and groups who prefer contemporary luxury over vintage styling."
   background_class: "bg-light"
   features:
-  - image: "images/products/01.jpg"
+  - image: "images/cars/2012-mercedes-vito/2012-Mercedes-Vito.jpg"
     content: "##### For School Formals
 
     Safe, supervised transport for formal groups with parents' peace of mind and modern comfort.
@@ -68,7 +68,7 @@ product_info:
     Transport bridesmaids or groomsmen in contemporary luxury and comfort.
     "
 
-  - image: "images/products/02.jpg"
+  - image: "images/cars/2012-mercedes-vito/2012-Mercedes-Vito.jpg"
     content: "##### For Corporate Events
 
     Professional executive transport for business functions and VIP guest transfers.
@@ -79,6 +79,13 @@ product_info:
 
     Perfect for contemporary weddings where modern styling is preferred over vintage classics.
     "
+
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/2012-mercedes-vito/gallery"
 
 ######################### CTA #####################
 cta:
@@ -91,3 +98,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

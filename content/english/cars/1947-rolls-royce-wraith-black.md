@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1947 Rolls Royce Wraith - Black"
+title: "1947 – Rolls Royce Wraith - Black"
 description: "Post-war elegance and sophistication"
 icon: "fas fa-crown"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1947 Rolls Royce Wraith - Black"
-  image: "images/products/01.jpg"
+  title: "1947 – Rolls Royce Wraith - Black"
+  image: "images/cars/1947-rolls-royce-silver-wraith/1947-rolls-royce-silver-wraith.jpg"
   content: "Experience post-war Rolls Royce luxury with our stunning 1947 Wraith in classic black. This elegant saloon represents the finest British craftsmanship of the immediate post-war era."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Classic Post-War <br> British Luxury"
   content: "The Wraith represents Rolls Royce's first post-war model, combining pre-war elegance with modern refinements. Perfect for couples seeking timeless sophistication."
@@ -48,6 +48,13 @@ about_this_product:
     * Complimentary beverages
     * Professional photography support
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1947-rolls-royce-silver-wraith/gallery"
+
 
 ######################### CTA #####################
 cta:

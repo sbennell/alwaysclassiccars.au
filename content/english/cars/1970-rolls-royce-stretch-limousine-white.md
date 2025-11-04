@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1970 Rolls Royce Stretch Limousine - White"
+title: "1970 - Rolls Royce Stretch Limousine - White"
 description: "Classic white limousine luxury"
 icon: "fas fa-car-side"
 passengers: 7
 
 ######################### banner #####################
 banner:
-  title: "1970 Rolls Royce Stretch Limousine - White"
-  image: "images/products/01.jpg"
+  title: "1970 - Rolls Royce Stretch Limousine - White"
+  image: "images/cars/1970-rolls-royce-stretch/1970-rolls-royce-stretch.jpg"
   content: "Our elegant 1970 white Rolls Royce Stretch Limousine provides spacious luxury transport for up to 7 passengers in classic style."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Extended Elegance <br> White Luxury"
   content: "This beautiful stretched Rolls Royce in classic white offers the perfect solution for larger bridal parties and group transport."
@@ -49,6 +49,13 @@ about_this_product:
     * Complimentary drinks
     "
 
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1970-rolls-royce-stretch/gallery"
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +67,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

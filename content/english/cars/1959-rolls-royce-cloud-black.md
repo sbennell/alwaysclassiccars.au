@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1959 Rolls Royce Cloud - Black"
+title: "1959 - Rolls Royce Cloud - Black"
 description: "Classic Silver Cloud elegance"
 icon: "fas fa-crown"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1959 Rolls Royce Silver Cloud - Black"
-  image: "images/products/01.jpg"
+  title: "1959 - Rolls Royce Cloud - Black"
+  image: "images/cars/1959-rolls-royce-cloud/1959-rolls-royce-cloud.jpg"
   content: "Experience the iconic Rolls Royce Silver Cloud in classic black. This legendary model represents the pinnacle of 1950s luxury motoring."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Iconic Silver Cloud <br> In Classic Black"
   content: "The Silver Cloud is one of Rolls Royce's most celebrated models, offering timeless styling and supreme luxury perfect for weddings."
@@ -48,6 +48,13 @@ about_this_product:
     * Complimentary beverages
     * Professional presentation
     "
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1959-rolls-royce-cloud/gallery"
+
 
 ######################### CTA #####################
 cta:

@@ -1,15 +1,15 @@
 ---
 date: "2024-11-03"
 draft: false
-title: "1968 Rolls Royce Convertible - White"
+title: "1968 - Rolls Royce Convertible - White"
 description: "Open-air luxury in classic white"
 icon: "fas fa-sun"
 passengers: 4
 
 ######################### banner #####################
 banner:
-  title: "1968 Rolls Royce Convertible - White"
-  image: "images/products/02.jpg"
+  title: "1968 - Rolls Royce Convertible - White"
+  image: "images/cars/1968-rolls-royce-convertible/1968-rolls-royce-convertible.jpg"
   content: "Experience the romance of open-air motoring in our stunning white 1968 Rolls Royce Convertible. Perfect for spring and summer weddings in Melbourne."
   button:
     enable: true
@@ -17,8 +17,8 @@ banner:
     link: "contact/"
   background_class: "bg-light"
 
-######################### about this product #####################
-about_this_product:
+######################### about this car #####################
+about_this_car:
   enable: true
   title: "Open-Air <br> Luxury"
   content: "This beautiful convertible combines Rolls Royce luxury with the joy of top-down motoring, creating unforgettable photo opportunities."
@@ -49,6 +49,13 @@ about_this_product:
     * Wedding decorations
     "
 
+
+######################### Gallery #####################
+gallery:
+  enable: true
+  title: "Photo Gallery"
+  gallery_dir: "images/cars/1968-rolls-royce-convertible/gallery"
+
 ######################### CTA #####################
 cta:
   enable: true
@@ -60,3 +67,4 @@ cta:
     label: "Contact Us"
     link: "contact/"
 ---
+

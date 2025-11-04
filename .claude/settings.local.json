@@ -21,7 +21,10 @@
       "Bash(hugo:*)",
       "Bash(for:*)",
       "Bash(do sed -i 's/passengers: 5/passengers: 4/g' \"$file\")",
-      "Bash(done)"
+      "Bash(done)",
+      "WebFetch(domain:github.com)",
+      "Bash(taskkill:*)",
+      "Bash(do echo \"=== $file ===\")"
     ],
     "deny": [],
     "ask": []
