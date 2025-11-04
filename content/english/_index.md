@@ -41,14 +41,11 @@ feature:
     content : "Over 37 years serving weddings, debutantes, and special occasions with excellence."
       
       
-######################### Intro Video #####################
-intro_video:
-  enable: false
-  title: "Built exclusively for you"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
-  video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
-  video_thumbnail: "images/video-popup.jpg"
-     
+######################### banner 2 #####################
+banner2:
+  title : "Experience Timeless Elegance"
+  image : "images/banner.jpg"
+  content: "For over 37 years, Always Classic Cars has been Melbourne's trusted name in luxury vintage car service. From the moment you step into one of our meticulously maintained classic vehicles, you'll understand why we're the premier choice for weddings, debutante balls, and special occasions throughout Melbourne."
       
 ######################### Service #####################
 service:
