@@ -2,31 +2,13 @@
 ####################### Banner #########################
 banner:
   title : "Melbourne's Biggest Vintage and Classic Cars Collection"
-  image : "images/cars-at-Essendon-Airport.jpg"
+  image : "images/banner.jpg"
   content : "Experience elegance and sophistication with our premium chauffeur-driven classic car service. Over 37 years of excellence serving weddings, debutantes, and special occasions. <br> Respecting the uniform and spoiling the bride."
   button:
     enable : true
     label : "Book Your Classic Car"
     link : "contact/"
 
-
-########################## Clients Logo Slider #########################
-clients_logo_slider:
-  enable : false
-  title: "The best customer experiences are built with Bigspring"
-  logos:
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
-  - "images/brands/03-colored.png"
-  - "images/brands/01-colored.png"
-  - "images/brands/02-colored.png"
-  - "images/brands/04-colored.png"
-  - "images/brands/05-colored.png"
-  - "images/brands/06-colored.png"
 
 ##################### Feature ##########################
 feature:
@@ -66,8 +48,7 @@ intro_video:
   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
   video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
   video_thumbnail: "images/video-popup.jpg"
-
-      
+     
       
 ######################### Service #####################
 service:
@@ -110,38 +91,15 @@ testimonials:
   - quote: "The service was impeccable! Our vintage Bentley arrived beautifully presented, and the chauffeur was professional and courteous. It made our wedding day even more special."
     name: "Sarah & Michael"
     designation: "Wedding Clients"
-    image: "images/avatar/02.jpg"
 
   - quote: "Always Classic Cars provided the perfect transport for our daughter's debutante ball. The Rolls Royce was stunning, and the attention to detail was outstanding. Highly recommended!"
     name: "Jennifer Thompson"
     designation: "Debutante Parent"
-    image: "images/avatar/03.jpg"
 
   - quote: "Professional, reliable, and absolutely beautiful cars. We've used Always Classic Cars multiple times for corporate events and they never disappoint. True luxury service."
     name: "Robert Williams"
     designation: "Corporate Client"
-    image: "images/avatar/04.jpg"
         
-
-################### tools_intregrate ########################
-tools_intregrate:
-  enable : false
-  title : "Integrate with all the tools your teams love using"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin."
-  image : "images/screenshot.svg"
-
-  tools:
-  - "images/tools/01.png"
-  - "images/tools/02.png"
-  - "images/tools/03.png"
-  - "images/tools/04.png"
-  - "images/tools/05.png"
-  - "images/tools/06.png"
-  - "images/tools/08.png"
-  - "images/tools/09.png"
-  - "images/tools/10.png"
-
-  
 
 ##################### Call to action #####################
 call_to_action:
