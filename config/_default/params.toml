@@ -52,7 +52,7 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
 keywords = ["Classic Cars", "Vintage Cars", "Wedding Cars", "Chauffeur Service", "Melbourne", "Bentley", "Rolls Royce", "Wedding Transport"]
-description = "Melbourne's premier vintage and classic car chauffeur service. Over 37 years experience providing luxury wedding cars, debutante and formal transport. Rolls Royce, Bentley, and classic convertibles."
+description = "Melbourne's premier vintage and classic car chauffeur service. Over 41 years experience providing luxury wedding cars, debutante and formal transport. Rolls Royce, Bentley, and classic convertibles."
 author = "Always Classic Cars"
 image = "images/logo.png"                           # this image will be used as fallback if a page has no image of its own
 

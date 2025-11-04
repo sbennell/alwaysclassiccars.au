@@ -2,7 +2,7 @@
 title: "About Always Classic Cars"
 subtitle: ""
 # meta description
-description: "Learn about Melbourne's premier vintage and classic car chauffeur service with over 37 years of experience. Family-owned and dedicated to excellence."
+description: "Learn about Melbourne's premier vintage and classic car chauffeur service with over 41 years of experience. Family-owned and dedicated to excellence."
 draft: false
 layout: "about"
 
@@ -10,7 +10,7 @@ layout: "about"
 # about
 about:
   title: "Melbourne's Premier Vintage & Classic Car Service"
-  content: "For over 37 years, Always Classic Cars has been providing Melbourne's finest chauffeur-driven vintage and classic car service. We pride ourselves on offering impeccable service, beautifully maintained vehicles, and professional uniformed chauffeurs who understand that your special day deserves nothing but the best."
+  content: "For over 41 years, Always Classic Cars has been providing Melbourne's finest chauffeur-driven vintage and classic car service. We pride ourselves on offering impeccable service, beautifully maintained vehicles, and professional uniformed chauffeurs who understand that your special day deserves nothing but the best."
   image: "images/about.jpg"
 
 
@@ -25,7 +25,7 @@ founders_quote:
 # who_we_are
 who_we_are:
   title: "Who we are"
-  content: "Always Classic Cars is a family-owned and operated business with well over 37 years of experience in providing luxury vintage car hire services across Melbourne. We specialize in chauffeur-driven classic cars for weddings, debutante balls, school formals, and special occasions.
+  content: "Always Classic Cars is a family-owned and operated business with well over 41 years of experience in providing luxury vintage car hire services across Melbourne. We specialize in chauffeur-driven classic cars for weddings, debutante balls, school formals, and special occasions.
 
 
   Our collection includes authentic Rolls Royce, Bentley, and classic convertibles from the 1930s through to the 1970s. Each vehicle is maintained to the highest standards and driven by our team of professional, uniformed chauffeurs who are dedicated to making your special occasion truly memorable."
@@ -46,7 +46,7 @@ fun_facts:
   title: "Our Legacy in Numbers"
   fact_item:
   - icon: "fas fa-calendar-alt"
-    counter: "37"
+    counter: "41"
     counter_suffix: "+"
     content: "Years of excellence <br> in service"
 
