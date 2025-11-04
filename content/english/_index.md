@@ -22,29 +22,29 @@ feature:
   feature_item:
   # feature item loop
   - name : "Chauffeur Driven"
-    icon : "fas fa-user-tie"
+    image : "images/Chauffer_Driven.jpg"
     content : "Professional uniformed chauffeurs providing red carpet service for your special day."
 
   # feature item loop
   - name : "Traditional Elegance"
-    icon : "fas fa-car"
+    image : "images/Traditional.jpg"
     content : "Authentic Rolls Royce, Bentley, and classic convertibles from the 1930s-1970s."
 
   # feature item loop
   - name : "Unmatched Style"
-    icon : "fas fa-crown"
+    image : "images/Style.jpg"
     content : "Make a grand entrance with our impeccably maintained vintage vehicles."
 
   # feature item loop
   - name : "Professional Experience"
-    icon : "fas fa-star"
+    image : "images/Experience.jpg"
     content : "Over 37 years serving weddings, debutantes, and special occasions with excellence."
       
       
 ######################### banner 2 #####################
 banner2:
   title : "Experience Timeless Elegance"
-  image : "images/banner.jpg"
+  image : "images/image_Home_0.jpg"
   content: "For over 37 years, Always Classic Cars has been Melbourne's trusted name in luxury vintage car service. From the moment you step into one of our meticulously maintained classic vehicles, you'll understand why we're the premier choice for weddings, debutante balls, and special occasions throughout Melbourne."
       
 ######################### Service #####################
@@ -54,27 +54,27 @@ service:
   # service item loop
   - title : "Wedding Car Hire - Your Special Day Deserves Elegance"
     images:
-    - "images/service-1.png"
-    - "images/service-2.png"
-    - "images/service-3.png"
+    - "images/image_Home_0.jpg"
+    - "images/image_Home_1.jpg"
+    - "images/image_Home_2.jpg"
     content : "Make your wedding day unforgettable with our stunning collection of vintage and classic cars. Our professional uniformed chauffeurs provide red carpet service, ensuring you arrive in style. Complimentary Moscato or apple cider included with every booking. Experience the romance of traveling in an authentic Rolls Royce, Bentley, or classic convertible from the golden age of motoring."
 
   # service item loop
   - title : "Debutante Balls - Arrive Like Royalty"
     images:
-    - "images/service-1.png"
+    - "images/image_Home_3.jpg"
     content : "Make your debutante ball entrance memorable with our exquisite classic car service. Our experienced chauffeurs understand the importance of this special milestone and ensure a sophisticated, stress-free experience. Travel in elegance and comfort in one of our meticulously maintained vintage vehicles."
 
   # service item loop
   - title : "School Formals - Premium Formal Transport"
     images:
-    - "images/service-2.png"
+    - "images/image_Home_4.jpg"
     content : "Give your school formal the VIP treatment with our luxury classic car hire. Safe, reliable, and sophisticated transport that will make your special night even more memorable. Our professional service ensures parents' peace of mind while students enjoy a unique and stylish arrival."
 
   # service item loop
   - title : "Special Occasions - Celebrate in Classic Style"
     images:
-    - "images/service-3.png"
+    - "images/image_Home_5.jpg"
     content : "Whatever your special occasion - anniversaries, proposals, milestone birthdays, or corporate events - our classic car fleet adds that touch of vintage glamour. With over 37 years of experience, we pride ourselves on exceptional service, immaculate vehicles, and attention to every detail."
        
        

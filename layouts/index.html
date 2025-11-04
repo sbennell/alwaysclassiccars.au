@@ -28,35 +28,33 @@
 {{ if .enable }}
 <section class="section bg-light">
   <div class="container">
-    <div class="row">
-      <div class="col-xl-4 mb-5 mb-xl-0">
-        <div class="pe-0 pe-xl-3">
-          <h2 class="section-title h3 mb-4">{{ .title | markdownify }}</h2>
-          <div class="content mb-4">
-            {{.content | markdownify}}
-          </div>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
-          {{ end }}
-          {{ end }}
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center mb-5">
+        <h2 class="section-title h3 mb-4">{{ .title | markdownify }}</h2>
+        <div class="content mb-4">
+          {{.content | markdownify}}
         </div>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-outline-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
       </div>
-      <div class="col-xl-8">
-        <div class="row gx-md-5 gy-5">
-          {{ range .feature_item }}
-            <div class="col-md-6">
-              <div class="feature-card is-hoverable bg-white rounded-1 d-block d-sm-flex">
-                <i class="icon {{.icon}} text-primary mb-4"></i>
-                <div class="block">
-                  <h4 class="mb-3 h5">{{ .name | title }}</h4>
-                  <p class="mb-0">{{ .content | markdownify }}</p>
-                </div>
-              </div>
+    </div>
+    <div class="row gx-md-5 gy-5">
+      {{ range .feature_item }}
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card is-hoverable bg-white rounded-1 d-flex flex-column h-100">
+            <div class="mb-3">
+              {{ partial "image" (dict "Src" .image "Alt" .name "Size" "600x" "Class" "w-100 rounded-1") }}
             </div>
-          {{ end }}
+            <div class="p-3 flex-grow-1 d-flex flex-column">
+              <h4 class="mb-3 h6">{{ .name | title }}</h4>
+              <p class="mb-0 flex-grow-1">{{ .content | markdownify }}</p>
+            </div>
+          </div>
         </div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </section>
