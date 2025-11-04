@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+<!-- Lightbox CSS -->
+<style>
+{{ (resources.Get "css/lightbox.css").Content | safeCSS }}
+</style>
+
 <!-- banner -->
 {{ with .Params.banner }}
 <section class="banner {{ .background_class }}">
@@ -97,7 +102,7 @@
     <div class="row g-4">
       {{ $galleryPath := printf "%s/*" .gallery_dir }}
       {{ range (resources.Match $galleryPath) }}
-      <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
         {{ partial "image" (dict "Src" .RelPermalink "Alt" "gallery image" "Size" "400x" "Class" "w-100 rounded shadow-sm") }}
       </div>
       {{ end }}
@@ -129,5 +134,9 @@
 {{ end }}
 {{ end }}
 <!-- /CTA -->
+
+<script>
+{{ (resources.Get "js/lightbox.js").Content | safeJS }}
+</script>
 
 {{ end }}

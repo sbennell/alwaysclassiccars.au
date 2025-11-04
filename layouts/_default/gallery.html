@@ -1,5 +1,10 @@
 {{ define "main" }}
 
+<!-- Lightbox CSS -->
+<style>
+{{ (resources.Get "css/lightbox.css").Content | safeCSS }}
+</style>
+
 {{ partial "page-header.html" . }}
 
 <!-- About Section -->
@@ -32,7 +37,7 @@
     <div class="row g-4">
       {{ $galleryPath := printf "%s/*" .gallery_dir }}
       {{ range (resources.Match $galleryPath) }}
-      <div class="col-lg-3 col-md-4 col-sm-6">
+      <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
         {{ partial "image" (dict "Src" .RelPermalink "Alt" "gallery image" "Size" "400x" "Class" "w-100 rounded shadow-sm") }}
       </div>
       {{ end }}
@@ -66,27 +71,7 @@
 <!-- /CTA -->
 
 <script>
-// Simple counter animation
-document.addEventListener('DOMContentLoaded', function() {
-  const counters = document.querySelectorAll('.counter');
-
-  counters.forEach(counter => {
-    const target = parseInt(counter.getAttribute('data-count'));
-    const duration = 2000;
-    const step = target / (duration / 16);
-    let current = 0;
-
-    const timer = setInterval(() => {
-      current += step;
-      if (current >= target) {
-        counter.textContent = target;
-        clearInterval(timer);
-      } else {
-        counter.textContent = Math.floor(current);
-      }
-    }, 16);
-  });
-});
+{{ (resources.Get "js/lightbox.js").Content | safeJS }}
 </script>
 
 {{ end }}
