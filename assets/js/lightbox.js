@@ -55,12 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const img = galleryImages[currentIndex];
 
     // Get the full-size image source
-    let fullSrc = img.src;
-
-    // If using Hugo image processing, try to get original
-    if (img.dataset.src) {
-      fullSrc = img.dataset.src;
-    }
+    let fullSrc = img.dataset.fullsrc || img.src;
 
     lightboxImg.src = fullSrc;
     lightboxImg.alt = img.alt;

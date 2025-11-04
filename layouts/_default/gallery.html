@@ -38,7 +38,11 @@
       {{ $galleryPath := printf "%s/*" .gallery_dir }}
       {{ range (resources.Match $galleryPath) }}
       <div class="col-lg-3 col-md-4 col-sm-6 gallery-item">
-        {{ partial "image" (dict "Src" .RelPermalink "Alt" "gallery image" "Size" "400x" "Class" "w-100 rounded shadow-sm") }}
+        <img src="{{ .RelPermalink }}"
+             data-fullsrc="{{ .RelPermalink }}"
+             alt="gallery image"
+             class="w-100 rounded shadow-sm"
+             loading="lazy">
       </div>
       {{ end }}
     </div>
