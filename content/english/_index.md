@@ -85,17 +85,45 @@ testimonials:
   content: "With over 41 years of experience, we've had the privilege of serving thousands of satisfied clients across Melbourne. Here's what they have to say about our service."
 
   testimonials_quotes:
-  - quote: "The service was impeccable! Our vintage Bentley arrived beautifully presented, and the chauffeur was professional and courteous. It made our wedding day even more special."
-    name: "Sarah & Michael"
-    designation: "Wedding Clients"
+  - quote: "Amazing service! So professional, accommodating, helpful, beautiful cars and great drivers! Aldo and Harry did a wonderful job driving me, my parents, and bridesmaids up to my wedding at Chateau Wyuna. Can't thank this amazing service any more!! Definitely recommend these beautiful cars!!!"
+    name: "Maryanne"
+    designation: "Wedding Client / 5 Stars"
 
-  - quote: "Always Classic Cars provided the perfect transport for our daughter's debutante ball. The Rolls Royce was stunning, and the attention to detail was outstanding. Highly recommended!"
-    name: "Jennifer Thompson"
-    designation: "Debutante Parent"
+  - quote: "The service we received from Always Classic Cars at the very beginning with our consultation … the chauffeurs (Joe B, Brad, Bill and Kon) were so thoughtful, gentle, patient and kind. … We are absolutely delighted with your services. Highly recommend and worth every cent."
+    name: "Andrew F."
+    designation: "Wedding Client / 5 Stars"
 
-  - quote: "Professional, reliable, and absolutely beautiful cars. We've used Always Classic Cars multiple times for corporate events and they never disappoint. True luxury service."
-    name: "Robert Williams"
-    designation: "Corporate Client"
+  - quote: "Stunning range of cars and they don't price gouge for weddings!!! I visited their garage in person and Vince was such a breath of fresh air. True professionals who love what they do."
+    name: "Monica H."
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "The Austin Princess we hired for our wedding day was beautiful and comfortable. Our driver Robert was amazing! We got everywhere we needed to be on time and he made us so relaxed throughout the entire day."
+    name: "Tara C."
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "Always Classic Cars provided an exceptional experience for our special day! From the moment we laid eyes on the vintage beauty awaiting us, we knew we were in for a treat. John, our driver, was an absolute delight – punctual, professional, and personable… The car itself was a stunning classic, immaculately maintained and oozing with timeless elegance. … Our journey with them was truly magical."
+    name: "Caroline M."
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "Beautiful and elegant classic cars! Vince was able to help us choose the right cars that suited our numbers and bridal party, and on the day our Chauffeurs Sam and Paul were so great, they made us feel comfortable and calm! Would recommend!"
+    name: "Gabriela C."
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "The owner and staff are genuinely excited about and care for every client they serve. … The cars are beautiful and always immaculately presented and very rare. Their presence really makes an impact."
+    name: "Monac673"
+    designation: "Wedding / Celebrant Client / 5 Stars"
+
+  - quote: "Our wedding cars were stunning, however when looking for your wedding car you are always going to get that car you pick. It's the service you can never be sure of. … Our driver Leo who was just lovely. Thanks for looking after the hardest part of the bridal party – The Bride and bridesmaids."
+    name: "Michelle H."
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "The cars are absolutely stunning, perfectly maintained, the drivers were well presented, friendly and provided excellent service. Arrived on time, and were a pleasure to deal with."
+    name: "Amstar"
+    designation: "Wedding Client / 5 Stars"
+
+  - quote: "We could not have been happier with your service on our wedding day. Joe and Harry were so professional and amazing chauffeurs. They looked after us so very well on the day and went above and beyond what we expected. … I really felt like a princess and my wedding day was everything I dreamed it would be! I could not recommend your team highly enough!"
+    name: "Sophie & Mourad"
+    designation: "Wedding Client / 5 Stars"
         
 
 ##################### Call to action #####################
