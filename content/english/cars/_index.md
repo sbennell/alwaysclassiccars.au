@@ -22,4 +22,4 @@ Our collection spans from 1932 to 2021, featuring prestigious Rolls Royce and Be
 
 ---
 
-**Ready to book?** Call us on **(03) 9898 2889** or [contact us](../contact/) to discuss your special occasion.
+**Ready to book?** Call us on **[(03) 9898 2889](tel:0398982889)** or [contact us](../contact/) to discuss your special occasion.

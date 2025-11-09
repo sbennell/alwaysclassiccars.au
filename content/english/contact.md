@@ -11,8 +11,8 @@ layout: "contact"
 #### Get in Touch With Us Today!
 We'd love to hear from you and discuss how we can make your special occasion unforgettable with our luxury vintage and classic car service. Whether you're planning a wedding, debutante ball, school formal, or any special event, we're here to help.
 
-* **Phone: (03) 9898 2889**
-* **Email: info@alwaysclassiccars.com.au**
+* **Phone: [(03) 9898 2889](tel:0398982889)**
+* **Email: [info@alwaysclassiccars.com.au](mailto:info@alwaysclassiccars.com.au)**
 * **Office Hours: Monday-Friday 9am-5pm | Weekends variable**
 * **Showroom Viewing: By appointment - Tue/Thu/Fri 9am-7pm, Mon/Wed 9am-6pm, Weekends 9am-12pm**
 

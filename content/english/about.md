@@ -80,7 +80,7 @@ features_box:
 
   - icon: "fas fa-phone"
     title: "Available 7 days <br> a week"
-    content: "Book your classic car experience any day of the week. Call (03) 9898 2889 or enquire online for availability and quotes."
+    content: "Book your classic car experience any day of the week. Call [(03) 9898 2889](tel:0398982889) or enquire online for availability and quotes."
 
 
 # office_culture

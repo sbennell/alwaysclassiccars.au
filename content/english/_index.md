@@ -130,7 +130,7 @@ testimonials:
 call_to_action:
   enable : true
   title : "Ready to Book Your Classic Car Experience?"
-  content : "Contact us today to reserve your luxury vintage car for your special occasion. Available 7 days a week. Call (03) 9898 2889 or enquire online."
+  content : "Contact us today to reserve your luxury vintage car for your special occasion. Available 7 days a week. Call [(03) 9898 2889](tel:0398982889) or enquire online."
   button:
     enable : true
     label : "Book Now"

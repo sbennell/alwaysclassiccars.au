@@ -28,7 +28,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
 theme_copyright = true
-copyright = "Copyright © Always Classic Cars. Powered by Bennell IT"
+copyright = "Copyright © Always Classic Cars. Powered by [Bennell IT](http://bennellit.com.au)"
 
 # preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
