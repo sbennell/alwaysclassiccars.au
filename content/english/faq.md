@@ -14,7 +14,7 @@ faq_list:
   content: 'We proudly offer over 25 vehicles, including the largest selection of Rolls-Royce cars in Victoria, all meticulously preserved to the highest standard. Our fleet features vehicles in black, white, silver, and two-tone black and grey.'
 
 - title: "Can I view the cars before booking?"
-  content: 'We highly recommend visiting our showroom to experience the vehicles firsthand. This allows you to assess comfort and ensure your bridal gown and other details are accommodated. Viewings are by appointment and available 7 days a week Tuesday, Thursday, and Friday 9am to 7pm Other weekdays until 6pm Weekends 9am to 12pm.'
+  content: 'We highly recommend visiting our showroom to experience the vehicles firsthand. This allows you to assess comfort and ensure your bridal gown and other details are accommodated. Viewings are by appointment only. Available Tuesday, Thursday, and Friday 9am to 7pm, other weekdays 9am to 6pm, and weekends 9am to 12pm.'
 
 - title: "How do I book a classic car?"
   content: 'Please complete our online booking form promptly to secure your chosen vehicle. A non-refundable but transferable deposit of $100 per car is required. Cancellations must be made 30 days prior to the wedding to avoid forfeiture of the full payment. We advise providing as much detail as possible on your booking form to ensure everything runs smoothly. It is also helpful to designate a contact person other than the bridal or groom couple for the day. We will confirm final details with you a few weeks before the wedding.'

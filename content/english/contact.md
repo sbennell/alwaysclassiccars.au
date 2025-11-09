@@ -13,7 +13,7 @@ We'd love to hear from you and discuss how we can make your special occasion unf
 
 * **Phone: (03) 9898 2889**
 * **Email: info@alwaysclassiccars.com.au**
-* **Hours: 7 Days Weekly**
-* **Office Hours: Tuesday-Friday 9am-7pm | Weekends 9am-12pm (by appointment)**
+* **Office Hours: Monday-Friday 9am-5pm | Weekends variable**
+* **Showroom Viewing: By appointment - Tue/Thu/Fri 9am-7pm, Mon/Wed 9am-6pm, Weekends 9am-12pm**
 
 Fill out the form below and we'll get back to you as soon as possible with availability and a personalized quote for your event.

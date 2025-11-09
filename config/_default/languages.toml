@@ -6,7 +6,7 @@ contentDir = "content/english"
 weight = 1
 [en.params]
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Products"
-footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit consjat tristique eget amet."
+footer_menu_left = "Quick Links"
+footer_menu_middle = "Services"
+footer_menu_right = "Get in Touch"
+footer_content = "Melbourne's premier vintage and classic car chauffeur service since 1987. Specializing in weddings, debutante balls, school formals, and special occasions with our collection of authentic Rolls Royce, Bentley, and classic convertibles."

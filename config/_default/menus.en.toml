@@ -53,23 +53,23 @@ weight = 4
 
 # footer menu middle
 [[footer_middle]]
-name = "Services"
-url = "/#services"
-weight = 1
-
-[[footer_middle]]
 name = "Weddings"
 url = "/#weddings"
-weight = 2
+weight = 1
 
 [[footer_middle]]
 name = "Debutantes"
 url = "/#debutantes"
-weight = 3
+weight = 2
 
 [[footer_middle]]
 name = "School Formals"
 url = "/#formals"
+weight = 3
+
+[[footer_middle]]
+name = "Testimonials"
+url = "/#testimonials"
 weight = 4
 
 # footer menu right
