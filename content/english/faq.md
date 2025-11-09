@@ -7,20 +7,29 @@ draft: false
 layout: "faq"
 
 faq_list:
-- title: "How do I book a classic car?"
-  content: 'To book, complete our booking form and email it to us promptly to hold your preferred vehicle selection. A $100 deposit per car is required to secure your booking. Deposits are non-refundable but transferable to another date if needed. Cancellation requires 30 days notice, otherwise full payment forfeiture applies.'
+- title: "Where are you located?"
+  content: "You'll find us at 360 Elgar Rd, Box Hill, VIC 3128, near the corner of Standard Avenue, opposite Windsor Crescent. Our full collection of classic cars is on-site and available for viewing by appointment."
 
-- title: "How much does it cost?"
-  content: 'We provide upfront, transparent pricing with customized packages for your needs. All prices are locked in and non-negotiable. Saturdays and Sundays require a 3-hour minimum hire. All prices include GST. Travel fees apply for locations outside Melbourne metro areas. Contact us via our enquiry form for a detailed quote tailored to your event.'
-
-- title: "How do I pay for the service?"
-  content: 'We do not offer credit facilities. Payment is preferred via bank transfer to Always Classic Cars (BSB: 633 000, Account: 3026317). Please use your name and wedding/event date as the payment reference. The balance must be paid 7 days before your event. Alternatively, you can pay cash to the chauffeur upon arrival.'
+- title: "What vehicles do you offer?"
+  content: 'We proudly offer over 25 vehicles, including the largest selection of Rolls-Royce cars in Victoria, all meticulously preserved to the highest standard. Our fleet features vehicles in black, white, silver, and two-tone black and grey.'
 
 - title: "Can I view the cars before booking?"
-  content: 'Absolutely! We highly recommend visiting our showroom to sit in the vehicles and assess comfort, especially considering bridal gown size and passenger arrangements. Our showroom hours are: Tuesday/Thursday/Friday 9am-7pm, other weekdays 9am-6pm, and weekends 9am-12pm (by appointment only).'
+  content: 'We highly recommend visiting our showroom to experience the vehicles firsthand. This allows you to assess comfort and ensure your bridal gown and other details are accommodated. Viewings are by appointment and available 7 days a week Tuesday, Thursday, and Friday 9am to 7pm Other weekdays until 6pm Weekends 9am to 12pm.'
+
+- title: "How do I book a classic car?"
+  content: 'Please complete our online booking form promptly to secure your chosen vehicle. A non-refundable but transferable deposit of $100 per car is required. Cancellations must be made 30 days prior to the wedding to avoid forfeiture of the full payment. We advise providing as much detail as possible on your booking form to ensure everything runs smoothly. It is also helpful to designate a contact person other than the bridal or groom couple for the day. We will confirm final details with you a few weeks before the wedding.'
+
+- title: "How do I pay for the service?"
+  content: 'We do not offer credit card facilities. Payments can be made via our Always Classic Cars Account (BSB 633 000, Account 3026317). Be sure to reference your name and wedding date. The remaining balance must be paid at least 7 days before the wedding, either by bank transfer or in cash to the chauffeur on the event day. Additional hire time is charged at $75 per 15 minutes per car.'
+
+- title: "How much does it cost?"
+  content: 'We provide transparent, upfront pricing tailored to your specific needs. Once your package is confirmed, the hire duration cannot be shortened. A minimum hire period of 3 hours applies, with all prices inclusive of GST. Travel fees may apply for longer distances, and a surcharge is applicable for bookings on public holidays. Contact us via our enquiry form for a detailed quote tailored to your event.'
 
 - title: "What is included in the service?"
-  content: 'Your booking includes professional uniformed chauffeurs, wedding ribbon/lace decoration, red carpet service, champagne glasses, water, umbrellas, and one complimentary bottle of Moscato or non-alcoholic apple cider per booking. Our chauffeurs provide door-opening service for all passengers, ensuring a truly VIP experience.'
+  content: 'Your booking includes Fully uniformed chauffeurs Wedding ribbon and lace on the back parcel shelf Red carpet service Champagne glasses, water, and umbrellas One bottle of Moscato or non-alcoholic apple cider per booking Chauffeurs will always open and close doors for passengers.'
+
+- title: "Do you offer night transfers?"
+  content: 'Yes. Night transfers are based on a one-hour hire. If additional time is required, please inform us in advance. Extra time is charged at $75 for every 15 minutes. Signatures and recorded times are necessary to finalize the invoice. An additional $75 fee applies for pickups after midnight.'
 
 - title: "How often are the cars cleaned?"
   content: 'Vehicle hygiene is our top priority. Every vehicle receives thorough cleaning and preparation each time it leaves our showroom. All cars are equipped with sanitizer and disinfectant to ensure the highest standards of cleanliness and safety for our clients.'

@@ -25,10 +25,10 @@ founders_quote:
 # who_we_are
 who_we_are:
   title: "Who we are"
-  content: "Always Classic Cars is a family-owned and operated business with well over 41 years of experience in providing luxury vintage car hire services across Melbourne. We specialize in chauffeur-driven classic cars for weddings, debutante balls, school formals, and special occasions.
+  content: "Always Classic Cars is a family-owned business with over 40 years of chauffeuring experience, founded by the late Tom Roberts. Our fleet is owned and operated by Always Classic Cars, and all chauffeurs are licensed under Safe Transport Victoria and Commercial Passenger Vehicles Victoria. We also carry $20 million in public liability insurance, fully covered by the Cursio Group.
 
 
-  Our collection includes authentic Rolls Royce, Bentley, and classic convertibles from the 1930s through to the 1970s. Each vehicle is maintained to the highest standards and driven by our team of professional, uniformed chauffeurs who are dedicated to making your special occasion truly memorable."
+  We specialize in chauffeur-driven classic cars for weddings, debutante balls, school formals, and special occasions. Our collection includes authentic Rolls Royce, Bentley, and classic convertibles from the 1930s through to the 1970s. Each vehicle is maintained to the highest standards and driven by our team of professional, uniformed chauffeurs who are dedicated to making your special occasion truly memorable."
 
 
 # our_mission
