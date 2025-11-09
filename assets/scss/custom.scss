@@ -10,3 +10,19 @@
   display: block;
 }
 
+// Contact form select dropdown fix
+select.form-control {
+  height: auto !important;
+  min-height: 50px !important;
+  padding: 14px 16px !important;
+  line-height: normal !important;
+  font-size: 16px !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+
+  option {
+    padding: 8px;
+    line-height: 1.5;
+  }
+}
+

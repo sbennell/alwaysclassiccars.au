@@ -10,24 +10,47 @@
       </div>
       <div class="col-lg-6">
         <form method="POST" class="row g-4" action="{{site.Params.contact_form_action | safeURL}}">
-          <div class="col-lg-6">
-            <label class="mb-1" for="fname">{{ i18n "fname"}} <span class="text-danger">*</span></label>
-            <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname`}}" required>
-          </div>
-          <div class="col-lg-6">
-            <label class="mb-1" for="fname">{{ i18n "lname"}} <span class="text-danger">*</span></label>
-            <input class="form-control shadow-none" type="text" name="last_name" placeholder="{{ i18n `lname`}}" required>
+          <div class="col-lg-12">
+            <label class="mb-1" for="name">Full Name <span class="text-danger">*</span></label>
+            <input class="form-control shadow-none" type="text" name="name" id="name" placeholder="Full Name" required>
           </div>
           <div class="col-lg-12">
-            <label class="mb-1" for="email">{{i18n "email"}} <span class="text-danger">*</span></label>
-            <input class="form-control shadow-none" type="email" name="email_address" placeholder="{{i18n `email`}}" required>
+            <label class="mb-1" for="phone">Phone <span class="text-danger">*</span></label>
+            <input class="form-control shadow-none" type="tel" name="phone" id="phone" placeholder="Phone" required>
           </div>
           <div class="col-lg-12">
-            <label class="mb-1" for="email">{{i18n "message"}}</label>
-            <textarea class="form-control shadow-none" name="message" rows="4" placeholder="{{i18n `message`}}"></textarea>
+            <label class="mb-1" for="email">Working Mail <span class="text-danger">*</span></label>
+            <input class="form-control shadow-none" type="email" name="email" id="email" placeholder="Working Mail" required>
           </div>
           <div class="col-lg-12">
-            <button class="btn btn-primary btn-sm mt-2" type="submit">{{ i18n "send"}}</button>
+            <label class="mb-1" for="event_type">Event Type <span class="text-danger">*</span></label>
+            <select class="form-control shadow-none" name="event_type" id="event_type" required>
+              <option value="">Select Event Type</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Birthday">Birthday</option>
+              <option value="School Formals">School Formals</option>
+              <option value="Debutante Balls">Debutante Balls</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="col-lg-12">
+            <label class="mb-1" for="event_date">Date of Event <span class="text-danger">*</span></label>
+            <input class="form-control shadow-none" type="date" name="event_date" id="event_date" required>
+          </div>
+          <div class="col-lg-12">
+            <label class="mb-1" for="pickup_location">Pickup Location</label>
+            <input class="form-control shadow-none" type="text" name="pickup_location" id="pickup_location" placeholder="Pickup Location">
+          </div>
+          <div class="col-lg-12">
+            <label class="mb-1" for="dropoff_location">Drop-off Location</label>
+            <input class="form-control shadow-none" type="text" name="dropoff_location" id="dropoff_location" placeholder="Drop-off Location">
+          </div>
+          <div class="col-lg-12">
+            <label class="mb-1" for="message">Anything else?</label>
+            <textarea class="form-control shadow-none" name="message" id="message" rows="4" placeholder="Anything else?"></textarea>
+          </div>
+          <div class="col-lg-12">
+            <button class="btn btn-primary btn-sm mt-2" type="submit">Send Message</button>
           </div>
         </form>
       </div>
